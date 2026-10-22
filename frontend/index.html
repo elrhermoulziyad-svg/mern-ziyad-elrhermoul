@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen MERN - Ziyad</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestion des Éléments (MERN)</h1>
+        
+        <!-- Formulaire d'ajout -->
+        <form id="itemForm">
+            <input type="text" id="itemName" placeholder="Nom de l'élément..." required>
+            <button type="submit">Ajouter</button>
+        </form>
+
+        <!-- Zone pour afficher les messages / erreurs -->
+        <div id="message" class="message"></div>
+
+        <!-- Liste des éléments récupérés depuis le backend -->
+        <h2>Liste des éléments</h2>
+        <ul id="itemList"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
