@@ -1,6 +1,6 @@
 // Centralisation de l'URL du backend (Respecte la consigne de l'examen)
 // Remplace 'http://localhost:3000/api' par l'URL de ton backend Vercel
-const API_URL = 'https://ton-backend-xxxxx.vercel.app/api';
+const API_URL = 'https://mern-ziyad-elrhermoul-frontend.vercel.app/api';
 
 const itemForm = document.getElementById('itemForm');
 const itemNameInput = document.getElementById('itemName');
